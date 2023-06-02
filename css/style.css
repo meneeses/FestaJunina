@@ -10,6 +10,7 @@
 
 body {
   background-color: #022847;
+  overflow: hidden;
 }
 
 
@@ -74,15 +75,13 @@ td {
 
 @media (max-width: 1245px) {
 
-
-  body{
-    overflow-x: hidden;
+  body {
+    overflow: hidden;
   }
 
   .bg {
     height: fit-content;
     width: fit-content;
-    overflow-x: hidden;
   }
 
   .box {
@@ -98,8 +97,8 @@ td {
 
 @media (max-width: 1106px) {
 
-  body{
-    overflow-x: hidden;
+  body {
+    overflow: hidden;
   }
 
   .bg {
@@ -109,7 +108,7 @@ td {
 
   .box {
     height: 300px;
-    width: 400px;
+    width: 600px;
   }
 
   td, th {
@@ -121,7 +120,7 @@ td {
 @media (max-width: 943px) {
 
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .bg {
@@ -143,7 +142,7 @@ td {
 @media (max-width: 520px) {
 
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .bg {
@@ -164,8 +163,8 @@ td {
 
 @media (max-width: 490px) {
 
-  body{
-    overflow-x: hidden;
+  body {
+    overflow: hidden;
   }
 
   .bg {
@@ -209,12 +208,13 @@ td {
 @media (max-width: 319px) {
 
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .bg {
     height: fit-content;
     width: fit-content;
+    overflow-x:initial;
   }
 
   .box {
