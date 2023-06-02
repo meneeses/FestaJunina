@@ -74,9 +74,15 @@ td {
 
 @media (max-width: 1245px) {
 
+
+  body{
+    overflow-x: hidden;
+  }
+
   .bg {
     height: fit-content;
     width: fit-content;
+    overflow-x: hidden;
   }
 
   .box {
@@ -91,6 +97,10 @@ td {
 }
 
 @media (max-width: 1106px) {
+
+  body{
+    overflow-x: hidden;
+  }
 
   .bg {
     height: fit-content;
@@ -110,6 +120,10 @@ td {
 
 @media (max-width: 943px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   .bg {
     height: fit-content;
     width: fit-content;
@@ -128,6 +142,10 @@ td {
 
 @media (max-width: 520px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   .bg {
     height: fit-content;
     width: fit-content;
@@ -145,6 +163,11 @@ td {
 }
 
 @media (max-width: 490px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
   .bg {
     height: fit-content;
     width: fit-content;
@@ -162,6 +185,11 @@ td {
 }
 
 @media (max-width: 416px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
   .bg {
     height: fit-content;
     width: fit-content;
@@ -179,6 +207,11 @@ td {
 }
 
 @media (max-width: 319px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
   .bg {
     height: fit-content;
     width: fit-content;
