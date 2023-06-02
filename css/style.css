@@ -21,8 +21,9 @@ body {
   justify-content: center;
 }
 
-.bg{
-  width: 86%
+.bg {
+  height: fit-content;
+  width: fit-content;
 }
 
 .teste {
@@ -68,6 +69,128 @@ td, th {
 td {
   color: #333;
   font-weight: 600;
-  border: 1px solid #000;
+  border: 0.2px solid #676565;
 }
 
+@media (max-width: 1245px) {
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 600px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1106px) {
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 400px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 943px) {
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 500px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 400px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 490px) {
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 400px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 416px) {
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 300px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 319px) {
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 200px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
