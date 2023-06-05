@@ -9,10 +9,9 @@
 }
 
 body {
-  background-color: #022847;
+  background-color: #FDEECC;
   overflow: hidden;
 }
-
 
 .content {
   position: relative;
@@ -25,61 +24,8 @@ body {
 .bg {
   height: fit-content;
   width: fit-content;
+  width: 1300px;
 }
-
-.teste {
-  position: absolute;
-  top: 145px;
-}
-
-.title_content {
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 85px;
-  margin-bottom: 0;
-}
-
-.title {
-  color: #ffffff;
-  font-family: Doublebass Trial, Poppins;
-  font-size: 2.5em;
-  object-fit: contain;
-  margin-bottom: 20px;
-}
-
-.subtitle {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.box {
-  position: absolute;
-  top: 150px;
-  height: 300px;
-  width: 600px;
-  margin-top: 40px;
-  background-color: #E8E9CE;
-  border-radius: 20px;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-
-}
-
-td, th {
-  padding: 3px 15px;
-  text-align: center;
-}
-
-td {
-  color: #333;
-  font-weight: 600;
-  border: 0.2px solid #676565;
-}
-
 
 @media (max-width: 1245px) {
 
@@ -90,6 +36,7 @@ td {
   .bg {
     height: fit-content;
     width: fit-content;
+    width: 1300px;
   }
 
   .box {
@@ -112,6 +59,7 @@ td {
   .bg {
     height: fit-content;
     width: fit-content;
+    width: 1300px;
   }
 
   .box {
@@ -134,6 +82,7 @@ td {
   .bg {
     height: fit-content;
     width: fit-content;
+    width: 1300px;
   }
 
   .box {
@@ -156,6 +105,7 @@ td {
   .bg {
     height: fit-content;
     width: fit-content;
+    width: 1300px;
   }
 
   .box {
@@ -178,6 +128,7 @@ td {
   .bg {
     height: fit-content;
     width: fit-content;
+    width: 1250px;
   }
 
   .box {
@@ -200,6 +151,7 @@ td {
   .bg {
     height: fit-content;
     width: fit-content;
+    width: 1250px;
   }
 
   .box {
@@ -221,8 +173,7 @@ td {
 
   .bg {
     height: fit-content;
-    width: fit-content;
-    overflow-x:initial;
+    width: fit-content;  
   }
 
   .box {
