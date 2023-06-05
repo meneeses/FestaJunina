@@ -165,7 +165,7 @@ body {
   }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 395px) {
 
   body {
     overflow: hidden;
@@ -173,7 +173,8 @@ body {
 
   .bg {
     height: fit-content;
-    width: fit-content;  
+    width: fit-content;
+    width: 1150px;
   }
 
   .box {
