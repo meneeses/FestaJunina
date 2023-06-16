@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/doublebass-trial');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #022847;
+  overflow: hidden;
+  background-image: url('../img/bg2.png');
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  height: fit-content;
+  width: fit-content;
+}
+
+
+.title_content {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 85px;
+  margin-bottom: 0;
+}
+
+.title {
+  color: #ffffff;
+  font-family: Doublebass Trial, Poppins;
+  font-size: 2.5em;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.box {
+  position: absolute;
+  top: 150px;
+  height: 300px;
+  width: 600px;
+  margin-top: 40px;
+  background-color: #E8E9CE;
+  border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td, th {
+  padding: 3px 15px;
+  text-align: center;
+}
+
+td {
+  color: #333;
+  font-weight: 600;
+  border: 0.2px solid #676565;
+}
+
+
+@media (max-width: 1245px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 600px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1106px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 600px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 943px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 500px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 520px) {
+
+  body {
+    overflow: hidden;
+    background-image: url('../img/bg.png');
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 400px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 490px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 400px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 416px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .box {
+    height: 300px;
+    width: 300px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 319px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+    overflow-x:initial;
+  }
+
+  .box {
+    height: 300px;
+    width: 200px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
