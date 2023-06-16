@@ -10,11 +10,16 @@
 
 body {
   background-color: #FDEECC;
-  background-image: url('../img/pontuacoes.png');
-  background-position-x: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
+.content {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .bg {
   height: fit-content;
@@ -141,7 +146,6 @@ body {
 
   body {
     overflow-x: hidden;
-    
   }
 
   .bg {
@@ -171,6 +175,29 @@ body {
     height: fit-content;
     width: fit-content;
     width: 1150px;
+  }
+
+  .box {
+    height: 300px;
+    width: 200px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 359px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+    width: 1000px;
   }
 
   .box {
