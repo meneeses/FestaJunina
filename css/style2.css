@@ -212,3 +212,27 @@ body {
   }
 
 }
+
+@media (max-width: 319px) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .bg {
+    height: fit-content;
+    width: fit-content;
+    width: 900px;
+  }
+
+  .box {
+    height: 300px;
+    width: 200px;
+  }
+
+  td, th {
+    padding: 3px 5px;
+    font-size: 1em;
+  }
+
+}
